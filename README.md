@@ -1,2 +1,2 @@
-# HiddenMessageImage
-Encodes or decodes messages in images
+# Encode Hidden Messages in Images
+Ever wanted to pass messages through an image?? Well neither have I, but I thought this would be a fun project to work on. Messages are encoded in the RGB channels of an image by taking the character code and setting it as one of the color values. Additionally you can load in coordinate maps and a color channel and it will export those characters or load in a exisiting image and export a coordinate map of your message hidden in the image. 

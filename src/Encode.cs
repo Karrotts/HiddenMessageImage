@@ -12,7 +12,7 @@ namespace HiddenMessageImage
         public static uint NearestSquare(uint value) => (uint)MathF.Ceiling(MathF.Sqrt(value));
         public static Bitmap CreateNewBitmap(uint charCount)
         {
-            uint size = NearestSquare(charCount) / 2;
+            uint size = NearestSquare(charCount / 3);
             return new Bitmap((int)size, (int)size);
         }
 
